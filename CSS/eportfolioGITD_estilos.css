@@ -1,0 +1,415 @@
+
+@media (min-width: 768px) {
+/*Estilo básico del encabezado*/
+header {
+  position:relative;
+  background-image: url('../img/Image 03042025.png');
+  background-position: center bottom;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+  max-width: 100%;
+  height: 350px;
+}
+
+.tamaño-grande {
+  font-size: 2em;
+}
+
+.centrado{
+  position:absolute;
+  top:25%;
+  left:25%;
+  text-shadow: 
+    -2px -2px black,  
+     2px -2px black,  
+    -2px  2px black,  
+     2px  2px black; 
+  color:#d67220;
+}
+
+header p {
+  margin: 10px 0 0;
+}
+
+header b{
+  color: rgb(201, 193, 84);
+}
+/*Estilo de la barra de menú*/
+nav {
+  background-color: #e59850;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  width: 100%; /*Asegura que no sobresalga*/
+  box-sizing: border-box;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/*Estilos generales para las secciones*/
+section {
+  margin: 0;
+  text-align: center;
+  background-color: #65c8dd;
+  box-sizing: border-box;
+  width: 100%;
+  height: 150px;
+}
+
+section div{
+	display: block;
+	text-align: center;
+}
+
+
+.habilidades {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.habilidades div {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 5px;
+  width: 13%;
+  text-align: center;
+  background-color: #2401c0;
+  color: #f5e911;
+  transition: all 0.2s linear;
+}
+
+.habilidades div:hover {
+  background-color: white;
+  color: #2401c0;
+}
+
+/*Estilo del pie de página*/
+footer {
+ /*background-color: #8e22bb;*/
+  background-color: #797fd5;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer form {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+footer table {		/*Formato para tablas*/
+  width: 30%;
+  border-spacing: 10px;
+  color: white;
+  justify-content: center;
+}
+
+footer input, footer textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+body {
+	font-family: arial, verdana;
+}
+
+h2 {
+	background-color:#95c799;
+	color:white;
+	width: 100%;
+	margin: 0;	
+	padding: 10px 0;
+	box-sizing: border-box;
+}
+
+#MIO, #TRABREAL, #Cont {
+	text-align: center;
+}
+
+section h2{
+  background-color:rgb(49, 212, 27);
+  max-width:100%;
+  margin-bottom: 20px;
+}
+
+.section {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 1rem;
+	width: 100%;
+	padding: 1rem;
+	box-sizing: border-box;
+}
+
+
+.section div{			
+	 width:90%;
+	 margin-right: 10px;
+	 background-color: #2401c0;
+	 height: 130px;   /*modo de prueba (AQUI)*/
+	 padding: 10px;
+	 border-radius: 8px;
+	 color: #f5e911;
+   transition: transform 0.5s ease;
+   box-shadow:rgb(0, 0, 0);
+ }
+
+ .section div:hover{
+    transform: scale(1.08);
+    -ms-transform:scale(1.08);
+    -moz-transform:scale(1.08);
+    -webkit-transform:scale(1.08);
+ }
+
+	#Trabajos {		/*Es la seccion de "Trabajos realizados"*/
+		height: 350px;
+		padding-top: 40px;
+		background-color: #65c8dd;
+	}
+
+
+	#ContactoContenido {
+	display: flex; 
+	justify-content: center; 
+	width: 100%;
+	}
+	
+	#bajoacom {
+		transform: translate(0%, 23%);
+	}
+	
+	#altoacom {
+		transform: translate(0%, -23%);
+	}
+}
+
+
+	
+@media (max-width: 768px) {
+/*Estilo básico del encabezado*/
+header {
+  position:relative;
+  background-image: url('../img/prueba-1.png');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  color: rgb(0, 0, 0);
+  padding: 20px 7px;
+  text-align: center;
+  max-width: 100%;
+  height: 350px;
+}
+
+.tamaño-grande {
+  font-size: 2em;
+}
+
+.centrado{
+  position:absolute;
+  top:20%;
+  text-shadow: 
+    -2px -2px black,  
+     2px -2px black,  
+    -2px  2px black,  
+     2px  2px black; 
+  color:#d67220;
+}
+
+header b{
+  color: rgb(201, 193, 84);
+  transform: translate(-20px,0px);
+}
+
+header p {
+  margin: 10px 0 0;
+}
+
+/*Estilo de la barra de menú*/
+nav {
+  background-color: #e59850;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0;
+  font-size: 16px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/*Estilos generales para las secciones*/
+section {
+  text-align: center;
+  background-color:#65c8dd;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+}
+
+section div {
+  display: block;
+  text-align: center;
+}
+
+/* Habilidades */
+.habilidades {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.habilidades div {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 5px;
+  width: 30%;
+  text-align: center;
+  background-color: #2401c0;
+  color: #f5e911;
+  transition: all 0.2s linear;
+}
+
+.habilidades div:hover {
+  background-color: white;
+  color: #2401c0;
+}
+
+/* Estilo del pie de página */
+footer {
+  background-color: #797fd5;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+footer form {
+  margin: 20px auto;
+  max-width: 90%;
+}
+
+footer table {
+  width: 100%;
+  border-spacing: 10px;
+  color: white;
+}
+
+
+footer input, footer textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+body {
+  font-family: arial, verdana;
+}
+
+h2 {
+  background-color: #95c799;
+  color: white;
+  width: 100%;
+  margin: 0;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+
+#MIO, #TRABREAL, #Cont {
+  text-align: center;
+}
+
+section h2 {
+  background-color: rgb(49, 212, 27);
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.section {
+  display: block;
+  width: 100%;
+  justify-content: center;
+}
+
+.section div {
+  width: 90%;
+  margin: 10px 12px;
+  padding: 7px 5px;
+  background-color:#2401c0;
+  color: #f5e911;
+  border-radius: 8px;
+}
+
+/* Mejorar la presentación de los divs en las secciones */
+section div h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+section div p {
+  font-size: 14px;
+}
+
+/* Asegurarse de que las imágenes no se desborden en pantallas pequeñas */
+header img {
+  max-width: 100%;
+  height: auto;
+}
+	#Trabajos {		/*Es la seccion de "Trabajos realizados"*/
+		height: 350px;
+		background-color: #65c8dd;
+		color: black;
+	}
+
+	#ContactoContenido {
+	display: flex; 
+	justify-content: center; 
+	width: 100%;
+	}
+	
+	#bajoacom {
+		transform: translate(0%, 45%);
+	}
+	#mediaacom {
+		transform: translate(0%, 45%);
+	}
+
+}
+nav a:link {
+	color:black;
+}
+
+nav a:visited {
+	color:black;
+}
+
+a:link {
+  color:#24f511;
+}
+
+a:visited {
+	color: #a9e159;
+}
+
