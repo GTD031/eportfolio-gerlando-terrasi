@@ -90,7 +90,7 @@ section div{
   transition: all 0.2s linear;
 }
 
-.habilidades div:hover {
+.habilidades div:hover {	/*Con hover, agrando el div a un 8 por ciento(1.08) al poner el mouse sobre el.*/
   background-color: white;
   color: #2401c0;
 }
@@ -160,7 +160,7 @@ section h2{
 	 width:90%;
 	 margin-right: 10px;
 	 background-color: #2401c0;
-	 height: 130px;   /*modo de prueba (AQUI)*/
+	 height: 130px;
 	 padding: 10px;
 	 border-radius: 8px;
 	 color: #f5e911;
@@ -412,4 +412,5 @@ a:link {
 a:visited {
 	color: #a9e159;
 }
+
 
